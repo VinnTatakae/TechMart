@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER PAGE</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+
+    <!-- Kotak Login -->
+    <div class="login-box">
+        <div class="login-header">
+            <header>Register</header>
+        </div>
+        <form action="#" method="post">
+
+            <!-- Input Username -->
+            <div class="input-box">
+            <input type="text" class="input-field" placeholder="Username" name="username" autocomplete="username" required>
+        </div>
+            
+            <!-- Input Email --> 
+            <div class="input-box"> 
+                <input type="text" class="input-field" placeholder="Email" name="email" autocomplete="username" required> 
+            </div>
+
+             <!-- Input Nomor Telepon --> 
+            <div class="input-box"> 
+                <input type="tel" class="input-field" placeholder="Nomor Telepon" name="tel" autocomplete="tel" required> 
+            </div>
+
+            <!-- Kolom Password -->
+            <div class="input-box password-box">
+                <input type="password" class="input-field" placeholder="Kata Sandi" name="password" id="password" autocomplete="current-password" required>
+            </div>
+
+            <!-- Checkbox Lihat Password -->
+            <div class="show-password-container">
+                <input type="checkbox" id="showPassword" class="show-password-checkbox">
+                <label for="showPassword" class="show-password-label">Lihat kata sandi</label>
+            </div>
+            
+            <!-- Tombol Login -->
+            <div class="input-submit">
+                <button type="button" class="submit-btn">
+                    Daftar
+                </button>
+            </div>
+            
+            <!-- Link Daftar -->
+            <div class="sign-up-link">
+                <p>Sudah punya akun? 
+                    <a href="#">Login</a>
+                </p>
+            </div>
+        </form>
+    </div>
+
+    <!-- JavaScript untuk mengubah visibilitas kata sandi -->
+    <script src="script.js"></script>
+
+</body>
+</html>

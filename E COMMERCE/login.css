@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('assets/login.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+/* Kotak Login */
+.login-box {
+    background: rgba(0, 0, 0, 0.6); /* Latar belakang semi-transparan */
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    color: white;
+}
+
+/* Header */
+.login-header header {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* Input Field */
+.input-box {
+    margin-bottom: 15px;
+}
+
+.input-field {
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    padding: 0 15px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+    box-shadow: 0 5px 10px rgba(91, 29, 236, 0.1);
+}
+
+.input-field:focus {
+    transform: scale(1.05);
+}
+
+/* Checkbox */
+.show-password-container {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.show-password-checkbox {
+    margin-right: 10px;
+}
+
+/* Tombol Login */
+.input-submit {
+    margin-top: 10px;
+}
+
+.submit-btn {
+    width: 100%;
+    height: 50px;
+    background: #5063f2;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background: #190ee3;
+    transform: scale(1.05);
+}
+
+/* Link Daftar */
+.sign-up-link {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.sign-up-link a {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.sign-up-link a:hover {
+    text-decoration: underline;
+}
